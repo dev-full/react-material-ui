@@ -1,0 +1,9 @@
+.normal_anchor a, a:visited, a:hover {
+    color: black
+}
+
+.MuiTableRow-root.Mui-selected, .MuiTableRow-root.Mui-selected:hover {
+    background: #EFEFF4 !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 4px;
+}
