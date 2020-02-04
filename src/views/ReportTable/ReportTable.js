@@ -52,7 +52,6 @@ const useStyles = makeStyles(theme => ({
 
 const ReportTable = props => {
   const { className, ...rest } = props;
-
   const classes = useStyles();
 
   const [orders] = useState(mockData);
@@ -73,7 +72,7 @@ const ReportTable = props => {
                   <TableCell>ReporterID</TableCell>
                   <TableCell>Post reported</TableCell>
                   <TableCell>Date Reported</TableCell>
-                  <TableCell>Status</TableCell>
+                  <TableCell>Status</TableCell> 
                 </TableRow>
               </TableHead>
               <TableBody>
